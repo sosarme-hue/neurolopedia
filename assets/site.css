@@ -572,3 +572,9 @@ a.card.person:hover .cimg img{transform:none}
 .heroimgs.solo img{object-position:center 22%!important}
 @media (max-width:900px){.heroimgs.solo{height:380px}}
 @media (max-width:560px){.heroimgs.solo{height:320px}}
+/* Móvil y tableta: la foto de Cajal de la portada se ve completa, sin recortes */
+@media (max-width:900px){
+  .heroimgs.solo{height:auto;aspect-ratio:960/1305;max-width:480px;margin:0 auto}
+  .heroimgs.solo img{object-fit:cover;object-position:center top!important}
+  .heroimgs.solo .visual:first-child{border-radius:14px}
+}
