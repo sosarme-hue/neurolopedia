@@ -566,3 +566,9 @@ a.card.person:hover .cimg img{transform:none}
 .redbox p{margin:0 0 10px}
 .redbox .red-list{margin:0;padding-left:18px;columns:2;column-gap:24px}
 @media (max-width:640px){.redbox .red-list{columns:1}}
+/* Portada con una sola foto (Cajal) */
+.heroimgs.solo{grid-template-columns:1fr;grid-template-rows:1fr;height:440px}
+.heroimgs.solo .visual:first-child{grid-column:auto;grid-row:auto}
+.heroimgs.solo img{object-position:center 22%!important}
+@media (max-width:900px){.heroimgs.solo{height:380px}}
+@media (max-width:560px){.heroimgs.solo{height:320px}}
