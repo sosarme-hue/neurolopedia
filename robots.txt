@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neurolopedia.com/sitemap.xml
